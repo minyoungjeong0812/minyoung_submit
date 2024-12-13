@@ -1,0 +1,6 @@
+openai
+requests
+beautifulsoup4
+
+
+## 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

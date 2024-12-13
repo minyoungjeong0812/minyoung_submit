@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "id": "1",
+      "name": "GootLoader",
+      "type": "Malware"
+    },
+    {
+      "id": "2",
+      "name": "UNC2565",
+      "type": "Threat Actor"
+    },
+    {
+      "id": "3",
+      "name": "GootKit",
+      "type": "Malware"
+    },
+    {
+      "id": "4",
+      "name": "REvil Ransomware",
+      "type": "Malware"
+    },
+    {
+      "id": "5",
+      "name": "SEO Poisoning",
+      "type": "TTP"
+    },
+    {
+      "id": "6",
+      "name": "JavaScript",
+      "type": "TTP"
+    },
+    {
+      "id": "7",
+      "name": "PowerShell",
+      "type": "TTP"
+    },
+    {
+      "id": "8",
+      "name": "Cobalt Strike",
+      "type": "Malware"
+    },
+    {
+      "id": "9",
+      "name": "BlueCrab Ransomware",
+      "type": "Malware"
+    },
+    {
+      "id": "10",
+      "name": "IcedID",
+      "type": "Malware"
+    },
+    {
+      "id": "11",
+      "name": "Kronos",
+      "type": "Malware"
+    },
+    {
+      "id": "12",
+      "name": "SystemBC",
+      "type": "Malware"
+    },
+    {
+      "id": "13",
+      "name": "GootBot",
+      "type": "Malware"
+    },
+    {
+      "id": "14",
+      "name": "Financial Industry",
+      "type": "Industry"
+    },
+    {
+      "id": "15",
+      "name": "Enterprise Users",
+      "type": "Industry"
+    },
+    {
+      "id": "16",
+      "name": "WordPress",
+      "type": "Indicator"
+    },
+    {
+      "id": "17",
+      "name": "Google Maps",
+      "type": "Indicator"
+    },
+    {
+      "id": "18",
+      "name": "SheetJS",
+      "type": "Indicator"
+    },
+    {
+      "id": "19",
+      "name": "Material Design Lite",
+      "type": "Indicator"
+    },
+    {
+      "id": "20",
+      "name": "Lodash",
+      "type": "Indicator"
+    },
+    {
+      "id": "21",
+      "name": "jQuery",
+      "type": "Indicator"
+    },
+    {
+      "id": "22",
+      "name": "Underscore.js",
+      "type": "Indicator"
+    },
+    {
+      "id": "23",
+      "name": "Data-Driven Document (D3)",
+      "type": "Indicator"
+    },
+    {
+      "id": "24",
+      "name": "MITRE ATT&CK",
+      "type": "Indicator"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "1",
+      "target": "2",
+      "type": "Uses"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "Related To"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "Delivers"
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "Employs"
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "type": "Employs"
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "Employs"
+    },
+    {
+      "source": "2",
+      "target": "8",
+      "type": "Deploys"
+    },
+    {
+      "source": "2",
+      "target": "9",
+      "type": "Deploys"
+    },
+    {
+      "source": "2",
+      "target": "10",
+      "type": "Deploys"
+    },
+    {
+      "source": "2",
+      "target": "11",
+      "type": "Deploys"
+    },
+    {
+      "source": "2",
+      "target": "12",
+      "type": "Deploys"
+    },
+    {
+      "source": "2",
+      "target": "13",
+      "type": "Deploys"
+    },
+    {
+      "source": "2",
+      "target": "14",
+      "type": "Targets"
+    },
+    {
+      "source": "2",
+      "target": "15",
+      "type": "Targets"
+    },
+    {
+      "source": "5",
+      "target": "16",
+      "type": "Abuses"
+    },
+    {
+      "source": "5",
+      "target": "17",
+      "type": "Abuses"
+    },
+    {
+      "source": "5",
+      "target": "18",
+      "type": "Abuses"
+    },
+    {
+      "source": "5",
+      "target": "19",
+      "type": "Abuses"
+    },
+    {
+      "source": "5",
+      "target": "20",
+      "type": "Abuses"
+    },
+    {
+      "source": "5",
+      "target": "21",
+      "type": "Abuses"
+    },
+    {
+      "source": "5",
+      "target": "22",
+      "type": "Abuses"
+    },
+    {
+      "source": "5",
+      "target": "23",
+      "type": "Abuses"
+    },
+    {
+      "source": "24",
+      "target": "1",
+      "type": "Analyzes"
+    }
+  ]
+}
